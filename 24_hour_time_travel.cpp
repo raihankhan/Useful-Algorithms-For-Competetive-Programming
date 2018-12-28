@@ -114,7 +114,7 @@ int main()
         }
 
 
-        //if(hour=="24") hour="00" ;
+        if(hour=="24") hour="00" ;
 
 
         cout << hour << " " << minute << endl;
