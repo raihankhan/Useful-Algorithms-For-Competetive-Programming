@@ -25,7 +25,8 @@ for instance , 21 = 3 * 7
                       
 There are exactly 12 numbers below 21 that are Co-prime with 21.
 
-Another important characteristics of Phi function is :
+Another two important characteristics of Phi function is :
+#### Summation of all the Phi of divisors of gcd(a,b) is equal to gcd(a,b)
 #### Summation of all the Phi of divisors of n is equal to n
 
 If N has 4 divisors d1,d2,d3 and d4 then
@@ -91,4 +92,3 @@ A simple source code in cpp can be found [here](https://github.com/raihankhan/DA
 #### For multiple queries we can calculate all the prime numbers requied using a seive of eratostenes and then calculate phi for each query. [This](https://github.com/raihankhan/DATA-STRUCTURE-AND-ALGORITHMS/blob/master/Number%20Theory/Euler's%20Phi%20for%20multiple%20queries(optimized).cpp) is a simple source code illustration.  
 
                     
-
