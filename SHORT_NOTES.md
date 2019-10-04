@@ -49,5 +49,16 @@ If  n = P1^a1 * P2^a2 * P3^a3 ................ Pk^ak , where P1,P2....Pk are pri
              = n * ( 1-1/P1 )( 1-1/P2 ).........( 1-1/pk)
 
 A simple source code in cpp can be found [here](https://github.com/raihankhan/DATA-STRUCTURE-AND-ALGORITHMS/blob/master/Number%20Theory/Euler's%20Phi.cpp)
+
+Another important characteristics of Phi function is :
+### Summation of all the Phi of divisors of n is equal to n
+
+If N has 4 divisors d1,d2,d3 and d4 then
+Phi(d1) + Phi(d2) + Phi(d3) + Phi(d4) = n
+
+     for instance, n = 12 has 6 divisors: 1 , 2 , 3 , 4 , 6 , 12
+     so , Phi(1) + Phi(2) + Phi(3) + Phi(4) + Phi(6) + Phi(12)
+         = 1 + 1 + 2 + 2 + 2 + 4
+         = 12 , which is equal to n
                     
 
