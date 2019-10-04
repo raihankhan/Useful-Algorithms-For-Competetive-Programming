@@ -35,7 +35,8 @@ Phi(d1) + Phi(d2) + Phi(d3) + Phi(d4) = n
      so , Phi(1) + Phi(2) + Phi(3) + Phi(4) + Phi(6) + Phi(12)
          = 1 + 1 + 2 + 2 + 2 + 4
          = 12 , which is equal to n
-
+         
+#### Calculating Phi
 if P is a prime number and a number n can be represeted by n=P^k . Then, There are P^k/P or P^(k-1) integers That devides P. so, there is n-P^(k-1) integers that can't be devided by P or they are co-prime with P^K.
 
 
