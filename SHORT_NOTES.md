@@ -85,6 +85,10 @@ Below is complete algorithm:
 
 4) Run a loop from i = 1 to n and print all Ph[i] values.
 [collected](https://www.geeksforgeeks.org/eulers-totient-function-for-all-numbers-smaller-than-or-equal-to-n/)
+A simple source code in cpp can be found [here](https://github.com/raihankhan/DATA-STRUCTURE-AND-ALGORITHMS/blob/master/Number%20Theory/Euler's%20Phi%20of%20all%20numbers.cpp)
+
+For multiple queries we can calculate all the prime numbers requied using a seive of eratostenes and then calculate phi for each query.
+[This](https://github.com/raihankhan/DATA-STRUCTURE-AND-ALGORITHMS/blob/master/Number%20Theory/Euler's%20Phi%20for%20multiple%20queries(optimized).cpp) is a simple source code illustration.  
 
                     
 
