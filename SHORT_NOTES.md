@@ -62,7 +62,7 @@ If  n = P1^a1 * P2^a2 * P3^a3 ................ Pk^ak , where P1,P2....Pk are pri
 
 A simple source code in cpp can be found [here](https://github.com/raihankhan/DATA-STRUCTURE-AND-ALGORITHMS/blob/master/Number%20Theory/Euler's%20Phi.cpp)
 
-#### calculationg Phi for all numbers less than or equal to n
+#### calculating Phi for all numbers less than or equal to n
 
 Below is complete algorithm:
 
