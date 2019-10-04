@@ -47,5 +47,7 @@ If  n = P1^a1 * P2^a2 * P3^a3 ................ Pk^ak , where P1,P2....Pk are pri
              = P1^a1 * P2^a2 .....Pk^ak * ( 1-1/P1 )( 1-1/P2 ).........( 1-1/pk)
              
              = n * ( 1-1/P1 )( 1-1/P2 ).........( 1-1/pk)
+
+A simple source code in cpp : https://github.com/raihankhan/DATA-STRUCTURE-AND-ALGORITHMS/blob/master/Number%20Theory/Euler's%20Phi.cpp
                     
 
