@@ -48,6 +48,6 @@ If  n = P1^a1 * P2^a2 * P3^a3 ................ Pk^ak , where P1,P2....Pk are pri
              
              = n * ( 1-1/P1 )( 1-1/P2 ).........( 1-1/pk)
 
-A simple source code in cpp can be found [here][https://github.com/raihankhan/DATA-STRUCTURE-AND-ALGORITHMS/blob/master/Number%20Theory/Euler's%20Phi.cpp
+A simple source code in cpp can be found [here](https://github.com/raihankhan/DATA-STRUCTURE-AND-ALGORITHMS/blob/master/Number%20Theory/Euler's%20Phi.cpp)
                     
 
