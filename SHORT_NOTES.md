@@ -18,3 +18,20 @@ for instance , 21 = 3 * 7
                       
 There are exactly 12 numbers below 21 that are Co-prime with 21.
 
+if P is a prime number and a number n can be represeted by n=P^k . Then, There are P^k/P or P^(k-1) integers That devides P. so, there is n-P^(k-1) integers that can't be devided by P or they are co-prime with P^K.
+
+
+              Phi(n)=Phi(P^k)
+                    =n-P^(k-1)
+                    =P^k - P^(k-1)
+                   
+If  n = P1^a1 * P2^a2 * P3^a3 ................ Pk^ak , where P1,P2....Pk are prime numbers then , We can say that
+
+      Phi(n) = Phi(P1^a1) * Phi(P2^a2) .......... Phi(Pk^ak)
+             = ( P1^a1 - P1^(a1-1) ) * (P2^a2 - P2^(a2-1) ) ......... ( Pk^ak - Pk^(ak-1) )
+             = ( P1^a1 - P1^a1/P1 ) ) * (P2^a2 - P2^a2/P2 ) ) ......... ( Pk^ak - Pk^ak/Pk) )  [a^(b-1) = a^b/a ]
+             = P1^a1 ( 1-1/P1 ) P2^a2 ( 1-1/P2 ) .........Pk^ak( 1-1/pk)
+             = P1^a1 * P2^a2 .....Pk^ak * ( 1-1/P1 )( 1-1/P2 ).........( 1-1/pk)
+             = n * ( 1-1/P1 )( 1-1/P2 ).........( 1-1/pk)
+                    
+
