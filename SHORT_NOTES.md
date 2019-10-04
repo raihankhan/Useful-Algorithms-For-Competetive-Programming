@@ -25,6 +25,17 @@ for instance , 21 = 3 * 7
                       
 There are exactly 12 numbers below 21 that are Co-prime with 21.
 
+Another important characteristics of Phi function is :
+#### Summation of all the Phi of divisors of n is equal to n
+
+If N has 4 divisors d1,d2,d3 and d4 then
+Phi(d1) + Phi(d2) + Phi(d3) + Phi(d4) = n
+
+     for instance, n = 12 has 6 divisors: 1 , 2 , 3 , 4 , 6 , 12
+     so , Phi(1) + Phi(2) + Phi(3) + Phi(4) + Phi(6) + Phi(12)
+         = 1 + 1 + 2 + 2 + 2 + 4
+         = 12 , which is equal to n
+
 if P is a prime number and a number n can be represeted by n=P^k . Then, There are P^k/P or P^(k-1) integers That devides P. so, there is n-P^(k-1) integers that can't be devided by P or they are co-prime with P^K.
 
 
@@ -50,15 +61,29 @@ If  n = P1^a1 * P2^a2 * P3^a3 ................ Pk^ak , where P1,P2....Pk are pri
 
 A simple source code in cpp can be found [here](https://github.com/raihankhan/DATA-STRUCTURE-AND-ALGORITHMS/blob/master/Number%20Theory/Euler's%20Phi.cpp)
 
-Another important characteristics of Phi function is :
-#### Summation of all the Phi of divisors of n is equal to n
+#### calculationg Phi for all numbers less than or equal to n
 
-If N has 4 divisors d1,d2,d3 and d4 then
-Phi(d1) + Phi(d2) + Phi(d3) + Phi(d4) = n
+Below is complete algorithm:
 
-     for instance, n = 12 has 6 divisors: 1 , 2 , 3 , 4 , 6 , 12
-     so , Phi(1) + Phi(2) + Phi(3) + Phi(4) + Phi(6) + Phi(12)
-         = 1 + 1 + 2 + 2 + 2 + 4
-         = 12 , which is equal to n
+1) Create an array phi[1..n] to store Φ values of all numbers 
+   from 1 to n.  
+
+2) Initialize all values such that phi[i] stores i.  This
+   initialization serves two purposes.
+   a) To check if phi[i] is already evaluated or not. Note that
+      the maximum possible phi value of a number i is i-1.
+   b) To initialize phi[i] as i is a multiple in above product
+      formula. 
+
+3) Run a loop for p = 2 to n
+    a) If phi[p] is p, means p is not evaluated yet and p is a 
+       prime number (slimier to Sieve), otherwise phi[p] must 
+       have been updated in step 3.b
+    b) Traverse through all multiples of p and update all 
+       multiples of p by multiplying with (1-1/p).
+
+4) Run a loop from i = 1 to n and print all Ph[i] values.
+[collected](https://www.geeksforgeeks.org/eulers-totient-function-for-all-numbers-smaller-than-or-equal-to-n/)
+
                     
 
