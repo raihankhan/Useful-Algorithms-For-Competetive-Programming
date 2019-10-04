@@ -15,3 +15,4 @@ for instance , 21=3*7
                       =2*6
                       =12
 There are exactly 12 numbers below 21 that are Co-prime with 21.
+
