@@ -9,10 +9,12 @@ Euler's Totient function returns the number of positive integers less than or eq
 P1 and P2 are prime numbers and n can be represented in the form of n=P1*P2, then
 
 **Phi(n) = Phi(P1 * P2) = Phi(P1) * Phi(P2) = (P1-1) * (P2-1)**
-for instance , 21=3*7
+for instance , 21 = 3 * 7
+
                Phi(21)=Phi(3) * Phi(7)
-                      =(3-1)*(7-1)
-                      =2*6
+                      =(3-1) * (7-1)
+                      =2 * 6
                       =12
+                      
 There are exactly 12 numbers below 21 that are Co-prime with 21.
 
