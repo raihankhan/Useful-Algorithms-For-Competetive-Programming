@@ -3,7 +3,8 @@
 ///        Author :  Raihan Khan Raka  ( raihankhanraka@gmail.com )                         ///
 ///                  Department of Computer Science                                         ///
 ///                  & Engineering                                                          ///
-///                  Comilla University , Bangladesh.                                       ///
+///                  Comilla University , Bangladesh.     
+///        This is a very efficient Seive of Eratothenes implementation
 ///...................................*****.................................................///
 
 /*....................................Values................................................*/
