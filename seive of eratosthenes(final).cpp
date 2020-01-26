@@ -99,7 +99,7 @@ using namespace std;
 bool arr[100000003];
 vecl v;
 
-// This is a very efficient seive of eratothenes. Time complexity: O(nloglogn) .
+// This is a very efficient seive of eratosthenes. Time complexity: O(nloglogn) .
 // Can store 5*10^6 prime numbers below 10^8 on c++14 ideone compiler.
 
 void seive(int n)       
