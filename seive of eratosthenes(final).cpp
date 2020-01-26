@@ -19,7 +19,7 @@
 #define       sqr(x)               x*x
 #define       sc                   scanf
 #define       pf                   printf
-#define       pfn                  printf("\n)
+#define       pfn                  printf("\n")
 #define       scin(x)              sc("%d",&(x))
 #define       scin2(xx,zz)         scanf("%d %d",&xx,&zz)
 #define       scln(x)              sc("%lld",&(x))
