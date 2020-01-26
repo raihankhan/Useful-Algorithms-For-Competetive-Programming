@@ -4,7 +4,7 @@
 ///                  Department of Computer Science                                         ///
 ///                  & Engineering                                                          ///
 ///                  Comilla University , Bangladesh.     
-///        This is a very efficient Seive of Eratothenes implementation
+///        
 ///...................................*****.................................................///
 
 /*....................................Values................................................*/
@@ -98,7 +98,11 @@ bool valid( int r , int c , int x , int y ){ if( x >= 1 && x <= r && y >= 1 && y
 using namespace std;
 bool arr[100000003];
 vecl v;
-void seive(int n)
+
+// This is a very efficient seive of eratothenes. Time complexity: O(nloglogn) .
+// Can store 5*10^6 prime numbers below 10^8 on c++14 ideone compiler.
+
+void seive(int n)       
 {
     lli root=sqrt(n)+1,p,i,j;
     arr[0]=arr[1]=1;
