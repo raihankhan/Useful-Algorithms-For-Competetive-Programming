@@ -18,10 +18,15 @@ mm[3]=2;
 auto it=mm.find(4);
 
 if(it==mm.end())
+
 cout << "element not found" << endl;
-else cout << it->first << " " << it->second << endl;  // prints- 4 9
+
+else
+
+cout << it->first << " " << it->second << endl;  // prints- 4 9
 
 complexity:
 
 for map complexity is logarithmic.
+
 for unordered_map complexity is constant(average), linear(worst).
