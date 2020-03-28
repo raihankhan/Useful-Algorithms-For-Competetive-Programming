@@ -27,14 +27,14 @@ void towers(int num, char frompeg, char topeg, char auxpeg)
 {
     if (num == 1)
     {
-     printf("\n Move disk 1 from peg %c to peg %c", frompeg, topeg);
+     printf("\n Move disk 1 from peg %c to peg %c", frompeg, topeg);       //move 1 disk from A to C
      m++;
         return;
     }
-    towers(num - 1, frompeg, auxpeg, topeg);
+    towers(num - 1, frompeg, auxpeg, topeg);                                //move n-1 disks from A to B using C
     printf("\n Move disk %d from peg %c to peg %c", num, frompeg, topeg);
     m++;
-    towers(num - 1, auxpeg, topeg, frompeg);
+    towers(num - 1, auxpeg, topeg, frompeg);                                //move n-1 disks from B to C using A
 }
 
 
