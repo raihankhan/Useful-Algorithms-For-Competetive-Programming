@@ -110,8 +110,10 @@ lli towerhanoi(int n,int A,int B,int C)
     lli &ret=dp[n][A][B][C];
     if(ret) return ret;
 
-    lli way1 = towerhanoi(n-1,A,C,B) + cost[A][B] + towerhanoi(n-1,C,B,A);     // move n-1 disks A-C then nth disk A-B then return n-1 disks C-A
-    lli way2 = towerhanoi(n-1,A,B,C) + cost[A][C] + towerhanoi(n-1,B,A,C) + cost[C][B] + towerhanoi(n-1,A,B,C);   //move n-1 disks A-B then nth disk A-C then return n-1 disks B-A then nth disk C-B then n-1 disks A-B
+    lli way1 = towerhanoi(n-1,A,C,B) + cost[A][B] + towerhanoi(n-1,C,B,A);  
+    // move n-1 disks A-C then nth disk A-B then return n-1 disks C-A
+    lli way2 = towerhanoi(n-1,A,B,C) + cost[A][C] + towerhanoi(n-1,B,A,C) + cost[C][B] + towerhanoi(n-1,A,B,C);   
+    //move n-1 disks A-B then nth disk A-C then return n-1 disks B-A then nth disk C-B then n-1 disks A-B
 
     return ret = min(way1,way2);
 
